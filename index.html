@@ -444,26 +444,35 @@
             <h2 class="text-4xl md:text-6xl font-bold mb-20 text-center section-reveal">Featured <span class="gradient-text">Projects</span></h2>
             
             <div class="grid md:grid-cols-2 gap-8">
+                
                 <!-- EuroBudgetTrips -->
-                <div class="section-reveal project-card glass-card rounded-3xl overflow-hidden group cursor-pointer" onclick="window.open('https://eurobudgettrips.com', '_blank')">
-                    <div class="h-64 bg-gradient-to-br from-purple-900 to-blue-900 relative overflow-hidden">
-                        <div class="absolute inset-0 flex items-center justify-center text-6xl opacity-20 group-hover:scale-110 transition-transform duration-500"><img src="ebtlogo.png" class="w-28 h-28 object-contain"></div>
-                        <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors"></div>
-                        <div class="absolute bottom-4 left-4">
-                            <span class="px-3 py-1 bg-purple-500/20 backdrop-blur-md rounded-full text-xs border border-purple-500/30">WordPress</span>
-                            <span class="px-3 py-1 bg-blue-500/20 backdrop-blur-md rounded-full text-xs border border-blue-500/30 ml-2">Affiliate</span>
-                        </div>
-                    </div>
-                    <div class="p-8">
-                        <h3 class="text-2xl font-bold mb-2 group-hover:text-purple-400 transition-colors">EuroBudgetTrips.com</h3>
-                        <p class="text-gray-400 mb-4">Travel blogging website with SEO-optimized content focusing on budget travel across Europe. Integrated with Travelpayouts and Kiwi.com affiliate networks.</p>
-                        <div class="flex gap-2 text-sm text-gray-500">
-                            <span>• SEO Optimization</span>
-                            <span>• Content Strategy</span>
-                            <span>• Monetization</span>
-                        </div>
-                    </div>
-                </div>
+               <div class="section-reveal project-card glass-card rounded-3xl overflow-hidden group cursor-pointer" onclick="window.open('https://eurobudgettrips.com', '_blank')">
+    <div class="h-64 bg-gradient-to-br from-purple-900 to-blue-900 relative overflow-hidden">
+        <!-- Logo fully visible -->
+        <div class="absolute inset-0 flex items-center justify-center z-10">
+            <img src="ebtlogo.png" class="w-28 h-28 object-contain">
+        </div>
+
+        <!-- Overlay (behind the logo) -->
+        <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors z-0"></div>
+
+        <!-- Tags with solid black background -->
+        <div class="absolute bottom-4 left-4 z-10 flex gap-2">
+            <span class="px-3 py-1 bg-black rounded-full text-xs text-white border border-gray-700">WordPress</span>
+            <span class="px-3 py-1 bg-black rounded-full text-xs text-white border border-gray-700">Affiliate</span>
+        </div>
+    </div>
+
+    <div class="p-8">
+        <h3 class="text-2xl font-bold mb-2 group-hover:text-purple-400 transition-colors">EuroBudgetTrips.com</h3>
+        <p class="text-gray-400 mb-4">Travel blogging website with SEO-optimized content focusing on budget travel across Europe. Integrated with Travelpayouts and Kiwi.com affiliate networks.</p>
+        <div class="flex gap-2 text-sm text-gray-500">
+            <span>• SEO Optimization</span>
+            <span>• Content Strategy</span>
+            <span>• Monetization</span>
+        </div>
+    </div>
+</div>
 
                <!-- Shopify Store -->
       <a href="https://trendboxeu.store" target="_blank">
